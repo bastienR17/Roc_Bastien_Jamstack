@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "etiquettes",
+  "info": {
+    "singularName": "etiquette",
+    "pluralName": "etiquettes",
+    "displayName": "Etiquette",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "Recipe": {
+      "type": "richtext"
+    }
+  }
+}
