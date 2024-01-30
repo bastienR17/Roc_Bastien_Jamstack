@@ -10,10 +10,10 @@ const search = useSearchStore()
   <div class="container">
     <div class="flex flex-col gap-y-4">
       <h1 class="my-0">
-        Recettes animales
+        Les Ani Mal
       </h1>
       <div class="form-group flex flex-col gap-2 w-1/2 lg:w-1/3" role="search">
-        <label for="search">Chercher une recette</label>
+        <label for="search">Chercher une ani mal</label>
         <input id="search" v-model="search.query" class="px-4 py-2" type="search">
       </div>
       <template v-if="search.sortedResults">

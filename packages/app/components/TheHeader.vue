@@ -1,11 +1,6 @@
 <script lang="ts" setup>
 const links = [
   {
-    id: 1,
-    title: 'Documentation',
-    url: '/start',
-  },
-  {
     id: 2,
     title: 'Exemple de recherche',
     url: '/exemple-recherche',
